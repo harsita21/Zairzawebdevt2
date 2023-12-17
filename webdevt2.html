@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webdevt2.css">
+    <title>Zairza webdev task 2 form</title>
+</head>
+<body>
+    <div style="background-color:forestgreen;">
+    <h1>Skill++ Survey Form</h1>
+    <p><i>Thank you for taking the time to help us improve the platform!</i></p>
+    <div1 style="background-color: black;" >
+        <form style="background-color: black;">
+        <p1>What is your name?</p1><br>
+        <div2 class="form-group">
+            <input type="text" style="background-color: black;" name="name" id="name" class="formControl" placeholder="Enter Your Name" required>
+        </div2><br>
+        <p2>What is your email address?</p2><br>
+        <div3 class="form-group">
+            <input type="email" style="background-color: black;" name="email" id="email" class="formControl" placeholder="Enter Your Email Address" required>
+        </div3><br>
+        <p3>What is your age?</p3><br>
+        <div4 class="form-group">
+            <input type="number" style="background-color: black;" name="age" id="phone" class="formControl" placeholder="Enter Your Age" required>
+        </div4><br>
+        <div5 class="form-group">
+            <p4 id="quest" style="background-color: black;" >Which option best describe your current role?</p4><br>
+            <select name="role" style="background-color: black;"  required id="dropdown" class="formControl">
+                <option value disabled selected >Select current role</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="job">Job</option>
+                <option value="other">Other</option>
+            </select>
+        </div5><br>
+        <div6 class="form-group">
+            <p5 id="quest">Would you recommend [Company Name] to a friend?</p5><br>
+            <label for="">
+                <input type="radio" name="source" value="Definitely" class="inputRadio">Definitely
+            </label><br>
+            <label for="">
+                <input type="radio" name="source" value="Maybe" class="inputRadio">Maybe
+            </label><br>
+            <label for="">
+                <input type="radio" name="source" value="Not sure" class="inputRadio">Not sure
+            </label><br>
+        </div6>
+        <div7 style="background-color: black;" class="form-group">
+            <p6 id="quest">Would you recommend [Company Name] to a friend?</p6><br>
+            <label for="">
+                <input type="checkbox" id="imp" name="imp" value="suggestion">
+                <label for="Front-end projects"> Front-end projects</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="Back-end projects">Back-end projects</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="Challenges">Challenges</label><br><br>
+            <p7>Any comments or suggestions?</p7><br>
+                <label>
+                    <textarea style="background-color: black;" id="freeform" name="comments" rows="10" cols="50" placeholder="Enter Your Comments Here..." >
+                    </textarea>
+                </label><br>
+             <div8><input type="submit" value="Submit"></div8>
+    </form>
+    </div1>
+    </div>
+</body>
+</html>
