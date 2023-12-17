@@ -1,0 +1,12 @@
+* {text-align: center;}
+    p{font-size: 25px;}
+    *{ color: bisque;}
+    div1{display: inline;}
+    div1{text-align: left;}
+    div6{text-align: left;}
+    div8{background-color: forestgreen;}
+    html {color-scheme: dark light;}
+    *::before,
+    *::after{box-sizing: border-box;}
+   
+    input[type=submit]{background-color: green;}
